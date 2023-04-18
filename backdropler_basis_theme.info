@@ -1,0 +1,5 @@
+name = Backdropler Base Theme
+description = Basis for Backdropler Development
+backdrop = 1.x
+
+stylesheets[all][] = css/styles.css

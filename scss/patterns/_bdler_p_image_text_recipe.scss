@@ -1,0 +1,63 @@
+.paragraphs-item-text-bild {
+
+	.content {
+		display: flex;
+		align-items: center;
+	}
+	
+	.field-name-field-text {
+
+		width: 49%;
+		order: 2;
+		padding-right: 0;
+		padding-left: 3em;
+		
+		
+	}
+	
+	.field-name-field-image {
+		width: 49%;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		order: 1;
+		
+		img {
+			width: 100%;
+		}	
+	}
+	
+	@media only screen and (max-width: 550px) {
+	.field-name-field-text {
+		width: 100%;
+		float: right;
+		text-align: left;
+	}
+	
+	.field-name-field-image {
+		width: 100%;
+		float: left;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		
+		img {
+			width: 100%;
+		}	
+	}
+	}
+	
+}
+
+.bild-rechts {
+	.field-name-field-text {
+
+		order: 1;
+		
+		padding-right: 3em;
+		padding-left: 0;
+	}
+	
+	.field-name-field-image {
+
+		order: 2;
+	}
+}
