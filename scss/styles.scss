@@ -11,6 +11,11 @@ html, body {
  }
 
 body {
+	font-family: sans-serif;
+	color: $text-color;
 	
+	a {
+		color: $link-color;
+	}
 }
 
